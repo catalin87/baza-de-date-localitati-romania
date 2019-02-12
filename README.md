@@ -1,5 +1,8 @@
 # O baza de date cu localitatile din Romania
-O baza de date cu toate asezarile din Romania (Orase, comune, sate)
+## Actualizata conform datelor disponibile in Februarie 2019
+
+Contine o lista cu toate orasele si satele din Romania alcatuite din datele disponibile online in Februarie 2019.
+Fiecare intrare contine informatii despre judet, coordonate GPS, populatie si cod postal.
 
 ## Continut
 
