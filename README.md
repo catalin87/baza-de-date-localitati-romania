@@ -3,7 +3,7 @@ O baza de date cu toate asezarile din Romania (Orase, comune, sate)
 
 ## Continut
 
-Localitatile sunt preluate din baza de date oferita de **Institutul National de Statistica**
+Informatiile sunt preluate din mai multe baze de date oferite de **Institutul National de Statistica**, **Posta Romana**, **Google Maps**
 
 Baza de date contine **13.851 inregistrari**
 
@@ -41,10 +41,23 @@ Toate fisierele contin aceleasi date, dar au fost generate pentru a va usura mun
 Au fost combinate, validate si introduse localitati furnizate de INS prin http://data.gov.ro/ 
 
 ### Codurile Postale
-Au fost preluate in urma unui raport furnizat de Institutul Național de Statistică actualizat in Septembrie 2016 si comparat cu rezultatele obtinute prin Google Geocoding API
+Au fost preluate in urma unui raport furnizat de Institutul Național de Statistică actualizat in Septembrie 2016 si comparat cu rezultatele obtinute prin Google Geocoding API.
+
+Unde nu au fost obtinute rezultate valide, au fost folosite informatii furnizate de Posta Romana
 
 ### Populatia
 Conform raportului INS pentru recensamantul din 2013 furnizat pe http://www.recensamantromania.ro/
 
 ### Coordonate Google Maps (lat, lng)
 Au fost obtinute prin interogarea Google Geocoding API si retusate manual in cazurile in care Google Maps nu a putut furniza informatiile. ( Da... :) au fost cateva sate care nu exista pe Google Maps )
+
+
+### Metoda de agregare a datelor
+Datele furnizate de toate sursele au fost introduse in baze de date si sortate, validate si corectate.
+
+Toata procedura a fost una automata ce a raportat erori de validare ce nu au putut fi corectate automat, cazuri in care a fost intervenit manual.
+
+### Raportare erori
+
+Daca gasiti probleme va rog sa raportati aceste erori pentru a fi remediate.
+
